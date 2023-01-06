@@ -17,7 +17,7 @@ main {
 }
 main .container {
   max-width: 400px;
-  max-height: 350px;
+  max-height: 500px;
   border-radius: 10px;
   background-color: var(--dark-grayish-blue);
   padding: 40px;
@@ -60,4 +60,19 @@ button:hover {
 .attribution a {
   color: var(--neon-green);
   text-decoration: none;
+}
+@media (max-width: 375px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 90vh;
+  }
+  main .container {
+    padding: 30px;
+    margin-top: 40px;
+  }
+  body {
+    margin: 20px;
+  }
 }
