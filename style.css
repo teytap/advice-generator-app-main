@@ -1,0 +1,56 @@
+:root {
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+body {
+  background-color: hsl(218, 23%, 16%);
+  font-family: "Manrope", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main .container {
+  max-width: 400px;
+  max-height: 300px;
+  background-color: var(--dark-grayish-blue);
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+}
+
+.advice-and-id {
+  color: var(--neon-green);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+}
+#quote {
+  font-size: 28px;
+  color: var(--light-cyan);
+}
+button {
+  background-color: var(--neon-green);
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  position: relative;
+  bottom: -66px;
+}
+.divider {
+  max-width: 100%;
+  margin-top: 20px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  align-items: flex-end;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
