@@ -55,7 +55,9 @@ button:hover {
   font-size: 11px;
   text-align: center;
   align-items: flex-end;
+  color: var(--light-cyan);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--neon-green);
+  text-decoration: none;
 }
